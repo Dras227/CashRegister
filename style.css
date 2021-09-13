@@ -1,0 +1,129 @@
+
+:root {
+    --primary-color:#F5DFCB;
+    --secondary-color:#D05E3E;
+    --ternary-color:#01566D;
+    --tabel-color:#6F465D;
+    --label-color:#273F46;
+    --btn-color:#F4C655;
+    --btn-border:#163A1E;
+} 
+*{
+    font-family: 'Open Sans',
+    sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+    background-color: var(--primary-color);
+}
+
+h1,p {
+    color: var(--btn-border);
+}
+.inp-label {
+    padding:10px 30px;
+    font-size:1.2rem;
+    
+}
+input {
+    width: 100%;
+    padding:10px;
+    border:none;
+    margin:1rem auto 1rem;
+}
+#check {
+    padding:10px;
+    font-weight: bold;
+    background-color: var(--tabel-color);
+    color: white;
+    border-radius: 4px;
+    border:none;
+}
+.change-table table,th,td {
+    padding:5px;
+    margin: 1rem 0;
+    border:1px solid var(--primary-color);
+    background-color: var(--ternary-color);
+    border-collapse: collapse;
+    color: white;
+
+}
+
+.no-of-notes {
+    background-color: white;;
+    color: black;
+}
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    width:50vw;
+    margin-left: 20vw;
+    margin-right: auto;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5vw;
+}
+
+.heading{
+    text-align: center;
+    color: var(--secondary-color);
+
+}
+.description {
+    text-align: center;
+    color: var(--ternary-color);
+}
+
+.inp-label {
+    text-align: center;
+    color: var(--label-color);
+}
+
+.change-table {
+    color:var(--tabel-color);
+}
+.inp {
+    height:6vw;
+    width:40vw;
+    text-align: center;
+    margin:auto;
+    border: none;
+    margin-top:10px;
+    font-size: 2vw;
+    margin-bottom: 10px;;
+}
+
+#check{
+    width:20vw;
+    height:5vw;
+    background-color: var(--btn-color);
+    margin:auto;
+    padding:4px;
+    border:2px solid #163A1E;
+    margin-top: 2vw;
+}
+
+.change-table{
+    margin-top:5vw;
+    border:3px solid #E1EFDF;
+    padding:15px; 
+}
+caption {
+    color: #FF5200;
+    font-size: 2rem;
+}
+td,th {
+    padding:5px;
+    text-align: center;;
+} */
